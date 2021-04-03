@@ -42,7 +42,7 @@ export const MainContent = styled.div`
 `
 
 export const MainH1 = styled.h1`
-    color: #5C5F58;
+    color: #EEFBFB;
     font-size: 48px;
     text-align: center;
 
@@ -56,10 +56,9 @@ export const MainH1 = styled.h1`
 
 export const MainP =  styled.p`
     margin-top: 24px;
-    color: #DCE1E3;
-    font-size: 24px;
+    color: #EEFBFB;
+    font-size: 18px;
     text-align: center;
-    text-shadow: 1px 1px  #5C5F58;
     max-width: 600px;
 
     @media screen and (max-width: 768px){
@@ -81,13 +80,13 @@ export const MainArrowWrapper = styled.div`
 
 export const ArrowExpand = styled(MdExpandMore)`
     margin-left: 8px;
-    font-size: 50px;
+    font-size: 70px;
     color: #B73225;
 `
 
 export const ArrowDown = styled(MdArrowDownward)`
     margin-left: 8px;
-    font-size: 50px;
+    font-size: 70px;
     color: #B73225;
 `
 
