@@ -17,7 +17,7 @@ const Blog = () => {
           const { blogImg, blogTitle, url } = item;
           return (
             <BlogItem key={index}>
-              <a href={url}>
+              <a href={url} target="blank">
                 <BlogImg src={blogImg} alt={blogTitle} />
               </a>
               <BlogTitle>{blogTitle}</BlogTitle>

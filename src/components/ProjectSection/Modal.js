@@ -23,6 +23,7 @@ const Modal = ({ handleClose, data }) => {
           <a
             href={data[0].url}
             style={{ textDecoration: "none", color: "white" }}
+            target="blank"
           >
             VIEW SITE
           </a>

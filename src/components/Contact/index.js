@@ -67,8 +67,15 @@ const Contact = () => {
           <MoveTop></MoveTop>
         </LinkTop>
         <SocialIconWrap>
-          <FaFacebook style={{ margin: "0 25px 0 25px" }} />
-          <FaInstagramSquare />
+          <a
+            href="https://www.facebook.com/profile.php?id=100003644936326"
+            target="blank"
+          >
+            <FaFacebook style={{ margin: "0 25px 0 25px", color: "#EEFBFB" }} />
+          </a>
+          <a href="https://www.instagram.com/hh_524__/" target="blank">
+            <FaInstagramSquare style={{ color: "#EEFBFB" }} />
+          </a>
         </SocialIconWrap>
         <p style={{ margin: "15px 0 0 25px" }}>COPYRIGHT &copy; 2021</p>
       </ContactSocialWrapper>
