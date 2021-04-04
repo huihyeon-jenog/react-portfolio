@@ -4,6 +4,9 @@ export const ProjectConatiner = styled.div`
   background: #eefbfb;
   text-align: center;
   height: 1000px;
+  @media screen and (max-width: 768px) {
+    height: 1700px;
+  }
 `;
 
 export const ProjectWrapper = styled.div`

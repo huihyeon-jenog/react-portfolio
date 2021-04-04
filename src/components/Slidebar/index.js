@@ -15,11 +15,17 @@ const Slidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SlidebarWrapper>
         <SlidebarMenu>
+          <SlidebarLink to="top" onClick={toggle}>
+            Home
+          </SlidebarLink>
           <SlidebarLink to="about" onClick={toggle}>
             About
           </SlidebarLink>
           <SlidebarLink to="project" onClick={toggle}>
             Project
+          </SlidebarLink>
+          <SlidebarLink to="blog" onClick={toggle}>
+            Blog
           </SlidebarLink>
           <SlidebarLink to="contact" onClick={toggle}>
             Contact

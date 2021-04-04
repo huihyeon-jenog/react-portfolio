@@ -2,21 +2,18 @@ import styled from "styled-components";
 import { MdVerticalAlignTop } from "react-icons/md";
 import { Link } from "react-scroll";
 export const ContactContainer = styled.div`
-  height: AUTO;
+  height: auto;
   position: relative;
+  background: #eefbfb;
   color: #eefbfb;
-
-  @media screen and (max-width: 768px) {
-    height: auto;
-  }
 `;
 export const ContactWrapper = styled.div`
   width: 100%;
   height: 500px;
-  background: #0e0b0d;
 `;
 export const ContactTitle = styled.h2`
-  color: #eefbfb;
+  color: #b73225;
+
   font-size: 48px;
   padding-top: 50px;
   text-align: center;
@@ -26,6 +23,10 @@ export const ContactFormWrapper = styled.div`
   height: 220px;
   margin: 40px auto 20px;
   position: relative;
+
+  @media screen and (max-width: 768px) {
+    width: 500px;
+  }
 `;
 export const ContactForm = styled.form`
   display: grid;
@@ -63,6 +64,9 @@ export const FormSubmitBtn = styled.button`
   &:hover {
     background: #007cc7;
     transition: all 0.5s ease-in;
+  }
+  @media screen and (max-width: 768px) {
+    right: 90px;
   }
 `;
 

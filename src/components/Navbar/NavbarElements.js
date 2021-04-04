@@ -23,9 +23,9 @@ export const NavbarContainer = styled.div`
   height: 100%;
 
   z-index: 1;
-  width: 100%;
+  width: 90%;
   padding: 0 24px;
-  max-width: 1100px;
+  margin-right: 60px;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -46,7 +46,7 @@ export const MobileIcon = styled.div`
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
-    top: 0;
+    top: -20px;
     right: 0;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;

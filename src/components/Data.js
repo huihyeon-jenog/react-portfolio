@@ -105,3 +105,26 @@ export const projectObject = [
     url: "https://huihyeon-jenog.github.io/ToDoLists.io/",
   },
 ];
+
+export const blogObject = [
+  {
+    blogImg: require("../images/blog1.png"),
+    blogTitle: "CSS-Grid",
+    url: "https://blog.naver.com/wjdgmlgus5/222283164459",
+  },
+  {
+    blogImg: require("../images/blog2.png"),
+    blogTitle: "React img require - object Module",
+    url: "https://blog.naver.com/wjdgmlgus5/222282180319",
+  },
+  {
+    blogImg: require("../images/blog3.png"),
+    blogTitle: "FLASK_TODOAPP",
+    url: "https://blog.naver.com/wjdgmlgus5/222251160155",
+  },
+  {
+    blogImg: require("../images/blog4.png"),
+    blogTitle: "국내 코로나 19 발생 현황 알림 봇",
+    url: "https://blog.naver.com/wjdgmlgus5/222246219884",
+  },
+];

@@ -8,6 +8,7 @@ import InfoSection from "./components/Infosection";
 import { aboutObj } from "./components/Data";
 import ProjectSection from "./components/ProjectSection";
 import Contact from "./components/Contact";
+import Blog from "./components/Blog";
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [showNav, setShowNav] = useState(true);
@@ -36,6 +37,7 @@ function App() {
       <MainSection />
       <InfoSection {...aboutObj} />
       <ProjectSection />
+      <Blog />
       <Contact />
     </Router>
   );
