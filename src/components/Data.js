@@ -1,13 +1,5 @@
-import { FaHtml5, FaReact, FaPython, FaBootstrap } from "react-icons/fa";
-import {
-  DiCss3,
-  DiJavascript1,
-  DiJqueryLogo,
-  DiNodejs,
-  DiGithubFull,
-  DiPhotoshop,
-  DiIllustrator,
-} from "react-icons/di";
+import { FaHtml5, FaReact } from "react-icons/fa";
+import { DiCss3, DiJavascript1, DiJqueryLogo, DiNodejs } from "react-icons/di";
 
 export const aboutObj = {
   id: "about",

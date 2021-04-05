@@ -15,8 +15,16 @@ const Modal = ({ handleClose, data }) => {
       <ModalWrapper>
         <CloseButton onClick={handleClose} />
         <ModalImg src={data[0].projectImg} alt={data[0].projectTitle} />
-        <ModalTitle>{data[0].projectTitle}</ModalTitle>
-        <ModalSkill>{data[0].skills}</ModalSkill>
+        <ModalTitle>
+          {data[0].projectTitle}{" "}
+          <span
+            style={{ color: "#203647", marginLeft: "0.3em", fontSize: "14px" }}
+          >
+            참여율 : 100%
+          </span>
+        </ModalTitle>
+        <ModalSkill>{data[0].skills} </ModalSkill>
+
         <hr />
         <ModalDescript>{data[0].descript}</ModalDescript>
         <MoreBtn>
